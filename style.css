@@ -1,0 +1,351 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    width:100vw;
+    
+}
+body {
+    margin:0px;
+}
+
+.menu{
+    display:flex;
+}
+.menuitems{
+    list-style: none;
+    margin-right: 20px;
+    font: 400 15px Roboto, Arial, sans-serif;
+    line-height:30px;
+    color:gray;
+}
+.menuitems:hover{
+    color:rgb(0, 179, 155);
+}
+.dropmenu{
+    display: none;
+}
+.menuitems:hover .dropmenu{
+    display: block;
+    position: absolute;
+    list-style: none;
+    background-color:white;
+    width:200px;
+    height: 220px;
+    margin-left: -100px;
+    padding-right: 20px;
+    line-height:40px;
+    box-shadow: 0px 0px 10px white;
+
+
+}
+
+.dropmenuitems{
+    color:gray;
+}
+.dropmenuitems:hover{
+    color:rgb(0, 179, 155);
+}
+.title{
+    text-align:center;
+    padding-top: 90px;
+}
+.pararphe{
+    display:flex;
+    margin-top:20px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-around;
+    
+}
+.pararphe p{
+    width:450px;
+    font: 400 16px Roboto, Arial, sans-serif;
+    line-height:28px;
+    color:rgb(116, 116, 116);
+}
+.title h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color:rgb(0, 179, 155);
+}
+.dropmenu{
+    display:none;
+}
+.para{
+    display:flex;
+    justify-content:space-around;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top:50px;
+     
+}
+.parapatient{
+    background-color: #1AD1B9;
+    padding:20px;
+    height: 300px;
+    width: 250px; 
+    border-radius: 10px;
+}
+.paradoctors{
+    background-color: #3D83DF;
+    padding:20px;
+    height: 300px;
+    width: 250px; 
+    border-radius: 10px;
+
+}
+.drop{
+    /* color:white; */
+    font:400 19.2px Roboto, Arial, sans-serif;
+    line-height:24.96px;
+    color:rgb(255, 255, 255);
+}
+.paraclinics{
+    background-color: #323D49;
+    padding:20px;
+    height: 300px;
+    width: 250px; 
+    border-radius: 10px;
+
+}
+.para h1{
+    font: 400 26px "Work Sans", Arial, sans-serif;
+    line-height: 33.8px;
+    color:rgb(255, 255, 255);
+}
+.para p{
+    font: 300 24px "Work Sans", Arial, sans-serif;
+    line-height: 28.8px;
+    color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right:auto;
+}
+a{
+    margin-top:50px ;
+}
+.about {
+    display:flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.titre h1{
+    text-align: center;
+}
+.aboutx{
+    display:flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+/* .abouty{
+    display:block;
+    margin-top:30px;
+    
+    margin-right: 200px;
+    
+} */
+.a{
+    background-color:#FFFFFF ;
+    padding:20px;
+    height: 220px;
+    width: 200px; 
+    border-radius: 10px;
+    margin-top: 50px;
+    /* margin-right: 10px; */
+    
+    margin-left:150px;    
+}
+.b{
+    background-color:#FFFFFF ;
+    padding:20px;
+    height: 220px;
+    width: 200px; 
+    border-radius: 10px;
+    margin-top: -5px;
+    /* margin-right: 10px; */
+    margin-left:200px; 
+    
+}
+.c{
+    background-color:#FFFFFF;
+    padding:20px;
+    margin-top:25px;
+    height: 220px;
+    width: 200px; 
+    border-radius: 10px;
+    margin-right: 150px;
+}
+.d{
+    background-color:#FFFFFF;
+    padding:20px;
+    margin-top:-30px;
+    height: 220px;
+    width: 200px; 
+    border-radius: 10px;
+    margin-right: 150px;
+}
+.lo{
+    background-color:#DAF7F6;
+    margin-bottom:0px;
+    margin-left: 50px;
+}
+.abc{
+    margin-top:60px;
+    text-align: center;
+    width:400px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.abc h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color:rgb(0, 179, 155)
+}
+.abc p{
+    font:400 14px Roboto, Arial, sans-serif;
+    line-height:24px;
+    color:rgb(116, 116, 116)
+}
+.a h1 {
+    text-align: center;
+}
+.b h1{
+    text-align: center;
+}
+.c h1{
+    text-align: center;
+}
+.d h1{
+    text-align: center;
+}
+.voy{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-left: 150px;
+    margin-right:150px;
+    margin-top: 50px;
+}
+.voy1{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-left: 150px;
+    margin-right:150px;
+    
+}
+.voy2{
+    display: flex;
+    list-style: none;
+    margin-left: 160px;
+}
+.p{
+    margin-top:50px;
+}
+.p h1 ,.p p{
+    text-align: center;
+}
+.p p{
+    margin-top:20px;
+    Font : 400 14px Roboto, Arial, sans-serif;
+    line-height:24px;
+    color:rgb(116, 116, 116);
+}
+.p h1{
+    margin-top: 100px;
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    line-height:39px;
+    color:rgb(0, 179, 155);
+}
+.bloc1{
+    background-color: #DAF7F6;
+    margin-top: 100px;
+}
+.a h1,.b h1, .c h1,.d h1{
+    text-align: center;
+    font:300 24px "Work Sans", Arial, sans-serif;
+    line-height:31.2px;
+    color:rgb(0, 179, 155)
+    
+}
+.a p,.b p, .c p,.d p{
+    text-align: center;
+    font:400 13px Roboto, Arial, sans-serif;
+    line-height:16.9px;
+    color:rgb(116, 116, 116);
+}
+.a img,.b img,.c img,.d img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    /* width:30px; */
+}
+.voyage{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 6px gray ;
+    width:100%;
+    
+}
+button{
+    background-color:#1662C6;
+    height:30px;
+    width:110px;
+    font:700 10px Roboto, Arial, sans-serif;
+    line-height:10px;
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+}
+.btnn{
+    margin-top: 50px;
+}
+.btn{
+    background-color:#1662C6;
+    height:40px;
+    width:200px;
+    font:700 12px Roboto, Arial, sans-serif;
+    line-height:12px;
+    color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.btnn h1{
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    line-height:39px;
+    color:rgb(51, 51, 51);
+    text-align : center;
+}
+.container{
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    font:400 12px Roboto, Arial, sans-serif ;
+    line-height:15.6px ;
+    color:rgb(171, 171, 171);
+    margin-top: 100px;
+    border-top: 1px solid  rgb(171, 171, 171) ;
+    padding-top: 20px;
+    
+}
+.foot a{
+    text-decoration:none;
+}
+.foot a:hover{
+    text-decoration:underline;
+}
+.place{
+    margin-top:5px;
+    
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
